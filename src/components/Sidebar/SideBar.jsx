@@ -2,6 +2,7 @@ import React from 'react'
 import './style.scss'
 
 export default function SideBar() {
+
   return (
     <div className='container'>
         <button>All Task</button>

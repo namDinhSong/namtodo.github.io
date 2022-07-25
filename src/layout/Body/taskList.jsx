@@ -1,8 +1,8 @@
 import React from "react";
-import TaskItem from "./taskItem";
+import TaskItem from "../../components/Item/taskItem";
 import "./styleList.scss";
-import Pagi from "../Pagination/Pagi";
-import { data } from "../constant/data";
+import Pagi from "../../components/Pagination/Pagination";
+import { data } from "../../components/constant/data";
 export default function TaskList() {
   return (
     <div className="task-container">

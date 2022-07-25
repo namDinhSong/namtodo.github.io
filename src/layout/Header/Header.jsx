@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import Button from "../Button/Button";
-import Modal from "../Modal/Modal";
+import Button from "../../components/Button/Button";
+import Modal from "../../components/Modal/Modal";
 import "./style.scss";
 // import { Button } from 'antd';
 export default function Header() {

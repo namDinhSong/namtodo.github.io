@@ -1,4 +1,4 @@
-import TodoApp from './components/TodoApp';
+import TodoApp from './layout/TodoApp';
 import './App.css'
 // import 'antd/dist/antd.css'
 function App() {

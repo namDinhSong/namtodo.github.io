@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "./Header/Header";
-import TaskList from "./List/taskList";
-import SideBar from "./Sidebar/SideBar";
+import TaskList from "./Body/taskList";
+import SideBar from "../components/Sidebar/SideBar";
 import "./style.scss";
 export default function TodoApp() {
   return (
