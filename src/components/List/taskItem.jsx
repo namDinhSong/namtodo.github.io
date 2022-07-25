@@ -11,21 +11,21 @@ function TaskItem(props) {
   const { title, creator, description } = props;
   const [status, setStatus] = useState("New");
   const [btn, setBtn] = useState("Start");
-  const [color, setColor] = useState("#1d1d1b");
+  const [color, setColor] = useState("green");
   
   const handleStatus = () => {
     if (status === "New"){
         setStatus("Doing")
         setBtn("Done")
-        setColor("#565555")
+        setColor("orange")
     } else if (status === "Doing"){
         setStatus("Done")
         setBtn("Renew")
-        setColor("#d6d6d6")
+        setColor("purple")
     } else{
         setStatus("New")
         setBtn("Start")
-        setColor("#1d1d1b")
+        setColor("green")
     }
   };
   return (

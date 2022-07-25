@@ -3,11 +3,31 @@
     position: relative;
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    padding: 10px;
     background-color: rgba(0, 0, 0, 0.2);
+
+    .header-left {
+        button {
+            background-color: rgba(0, 0, 0);
+            color: #fff;
+            outline: none;
+            height: 30px;
+            width: 120px;
+
+            &:hover {
+                transition: 0.5s;
+                transform: scale(1.1);
+                cursor: pointer;
+                background-color: rgba(0, 0, 0, 0.5);
+                border: none;
+            }
+        }
+    }
+
     .header-right {
         display: flex;
-        input{
+
+        input {
             margin-right: 10px;
             padding-left: 10px;
             border-radius: 10px 0 0 10px;

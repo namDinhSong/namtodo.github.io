@@ -1,30 +1,18 @@
-import React, { useState } from "react";
+import React from "react";
 import Button from "../Button/Button";
 import "./style.scss";
 export default function Modal() {
-  const [title, setTitle] = useState("");
-  const [creator, setCreator] = useState("");
-  const [description, setDescription] = useState("");
-  function handleNewTask() {
-    setTitle = "hi";
-  }
   return (
     <div className="modal-container">
       <div className="modal-overlay"></div>
       <form>
-        <ul>
-          <li>
-            <input placeholder="Title...">{title}</input>
-          </li>
-          <li>
-            <input placeholder="Creator...">{creator}</input>
-          </li>
-          <li>
-            <input placeholder="Description...">{description}</input>
-          </li>
-        </ul>
-        <Button />
-        {/* <button onClick={handleNewTask}/> */}
+        <h3>Create New Task</h3>
+        <input placeholder="Title..."></input>
+        <input placeholder="Creator..."></input>
+        <input placeholder="Description..."></input>
+        <div className="btn">
+        <Button name={"Add"} />
+        </div>
       </form>
     </div>
   );
