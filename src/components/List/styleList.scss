@@ -1,0 +1,15 @@
+.task-container {
+    width: 80%;
+    height: 100%;
+    .task-top {
+        height: 80%;
+        display: flex;
+        flex-flow: wrap;
+    }
+
+    .task-btm {
+        height: 20%;
+        display: block;
+        text-align: center;
+    }
+}

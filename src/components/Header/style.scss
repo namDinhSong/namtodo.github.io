@@ -1,0 +1,17 @@
+.header-container {
+    width: inherit;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.2);
+    .header-right {
+        display: flex;
+        input{
+            margin-right: 10px;
+            padding-left: 10px;
+            border-radius: 10px 0 0 10px;
+            outline: none;
+        }
+    }
+}
