@@ -13,6 +13,7 @@ export default function TaskList() {
               title={item.title}
               key={index}
               creator={item.creator}
+              status={item.status}
               description={item.description}
             />
           );
@@ -22,5 +23,6 @@ export default function TaskList() {
         <Pagi />
       </div>
     </div>
+    
   );
 }

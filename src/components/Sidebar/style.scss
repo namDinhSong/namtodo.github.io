@@ -3,20 +3,22 @@
     flex-direction: column;
     background-color: rgba(0, 0, 0, 0.3);
     height: 110vh;
-    width: 8%;
+    width: 100px;
 
-    button {
-        color: #fff;
-        background-color: black;
-        height: 40px;
-        margin-bottom: 2px;
-
-        &:hover {
-            cursor: pointer;
-            transform: scale(1.1);
-            transition: 0.8s;
-            background-color: rgba(0, 0, 0, 0.5);
-            border: none;
+    a {
+        button {
+            color: #fff;
+            background-color: black;
+            height: 40px;
+            margin-bottom: 2px;
+            width: 100%;
+            &:hover {
+                cursor: pointer;
+                transform: scale(1.1);
+                transition: 0.8s;
+                background-color: rgba(0, 0, 0, 0.5);
+                border: none;
+            }
         }
     }
 }

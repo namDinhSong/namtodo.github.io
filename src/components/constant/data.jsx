@@ -2,36 +2,38 @@ export const data = [
   {
     title: "Task 1",
     creator: "Nam",
+    status: "New",
     description:
       "This is a task. This is a task. This is a task. This is a task. This is a task. This is a task. ",
   },
   {
-    title: "Task 2",
+    title: "Task 1",
     creator: "Nam",
+    status: "New",
     description:
       "This is a task. This is a task. This is a task. This is a task. This is a task. This is a task. ",
   },
+
   {
-    title: "Task 3",
+    title: "Task 1",
     creator: "Nam",
+    status: "New",
     description:
       "This is a task. This is a task. This is a task. This is a task. This is a task. This is a task. ",
   },
+
   {
-    title: "Task 4",
+    title: "Task 1",
     creator: "Nam",
+    status: "New",
     description:
       "This is a task. This is a task. This is a task. This is a task. This is a task. This is a task. ",
   },
+
   {
-    title: "Task 5",
+    title: "Task 1",
     creator: "Nam",
-    description:
-      "This is a task. This is a task. This is a task. This is a task. This is a task. This is a task. ",
-  },
-  {
-    title: "Task 6",
-    creator: "Nam",
+    status: "New",
     description:
       "This is a task. This is a task. This is a task. This is a task. This is a task. This is a task. ",
   },

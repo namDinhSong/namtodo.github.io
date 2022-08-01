@@ -1,0 +1,21 @@
+.form-contain {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    form {
+        margin: 0 auto;
+        width: 200px;
+        flex-direction: column;
+        h2{
+            &:hover{
+                cursor: default;
+            }
+        }
+        input{
+            margin-bottom: 5px;
+            &:focus{
+                outline: none;
+            }
+        }
+    }
+}
