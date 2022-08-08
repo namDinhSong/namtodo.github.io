@@ -2,18 +2,22 @@
     width: 100%;
     text-align: center;
     display: flex;
+
     form {
         margin: 0 auto;
         width: 200px;
         flex-direction: column;
-        h2{
-            &:hover{
+
+        h2 {
+            &:hover {
                 cursor: default;
             }
         }
-        input{
+
+        input {
             margin-bottom: 5px;
-            &:focus{
+
+            &:focus {
                 outline: none;
             }
         }
